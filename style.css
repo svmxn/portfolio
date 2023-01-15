@@ -129,7 +129,7 @@
 
   .button{
     position: relative;
-    font-size: 30px;
+    font-size: 20px;
     padding: 12px 20px;
     border: none;
     background-color: transparent;
@@ -137,11 +137,10 @@
     cursor: pointer;
     text-decoration: none;
     margin: 100px;
-    display: flex;
+    display: list-item;
     align-items: center;
     justify-content: center;
-    width: 75%;
-    height: 75%;
+  
   }
 
   .button::before {
