@@ -52,7 +52,7 @@ export default function Resume() {
 
         <motion.div variants={itemVariants} className="resume-viewer">
           <embed
-            src="/Samin_Siddique_Resume.pdf#zoom=150&view=FitH"
+            src="/Samin_Siddique_Resume.pdf#view=Fit"
             type="application/pdf"
             className="resume-embed"
           />
