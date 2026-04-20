@@ -56,11 +56,11 @@ export default function About() {
             <div className="highlight-label">CGPA</div>
           </div>
           <div className="highlight-item">
-            <div className="highlight-number">15+</div>
+            <div className="highlight-number">20+</div>
             <div className="highlight-label">Languages & Technologies</div>
           </div>
           <div className="highlight-item">
-            <div className="highlight-number">4+</div>
+            <div className="highlight-number">5+</div>
             <div className="highlight-label">Years Experience</div>
           </div>
         </motion.div>
