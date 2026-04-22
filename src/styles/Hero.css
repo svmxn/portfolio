@@ -223,7 +223,6 @@
     gap: 12px;
     margin-bottom: 28px;
     flex-direction: column;
-    align-items: stretch;
   }
 
   .hero-buttons .btn {
