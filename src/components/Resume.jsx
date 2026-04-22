@@ -51,10 +51,10 @@ export default function Resume() {
         </motion.div>
 
         <motion.div variants={itemVariants} className="resume-viewer">
-          <embed
-            src="/Samin_Siddique_Resume.pdf#view=Fit"
-            type="application/pdf"
-            className="resume-embed"
+          <img
+            src="/Samin_Siddique_Resume.jpg"
+            alt="Samin Siddique Resume"
+            className="resume-image"
           />
         </motion.div>
       </motion.div>

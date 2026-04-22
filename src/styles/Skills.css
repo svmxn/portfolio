@@ -73,7 +73,7 @@
   color: var(--accent-blue);
   transition: all 0.3s ease;
   cursor: pointer;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
 }
 
 .skill-tag:hover {
@@ -84,11 +84,31 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+  .skills-header {
+    margin-bottom: 36px;
+  }
+
   .skills-grid {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .skill-category {
     padding: 20px;
+  }
+
+  .skill-items {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-category {
+    padding: 18px;
+  }
+
+  .skill-tag {
+    padding: 7px 12px;
+    font-size: 0.85rem;
   }
 }

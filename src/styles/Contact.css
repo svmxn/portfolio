@@ -96,6 +96,14 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+  .contact-header {
+    margin-bottom: 34px;
+  }
+
+  .contact-content {
+    margin-bottom: 36px;
+  }
+
   .social-icons {
     gap: 15px;
   }
@@ -111,5 +119,21 @@
 
   .contact-buttons .btn {
     width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-content p {
+    font-size: 0.98rem;
+    line-height: 1.7;
+  }
+
+  .contact-buttons .btn {
+    min-width: 0;
+  }
+
+  .social-icon {
+    width: 48px;
+    height: 48px;
   }
 }
