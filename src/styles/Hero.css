@@ -205,22 +205,29 @@
 
   .hero-title {
     font-size: 2rem;
+    margin-bottom: 14px;
   }
 
   .hero-subtitle-container {
+    font-size: 1.15rem;
     min-height: 3.8rem;
+    margin-bottom: 20px;
   }
 
   .hero-description {
     font-size: 0.98rem;
+    margin-bottom: 28px;
   }
 
   .hero-buttons {
+    gap: 12px;
+    margin-bottom: 28px;
     flex-direction: column;
     align-items: stretch;
   }
 
   .hero-buttons .btn {
     width: 100%;
+    max-width: 260px;
   }
 }
