@@ -8,12 +8,12 @@ export default function Experience() {
       company: 'Toronto Hydro-Electric System Ltd.',
       period: 'Jan 2025 - Dec 2025',
       bullets: [
-        'Provide technical support and maintenance for Citrix servers, Hyper-V, and VMware environments, ensuring optimal system performance and uptime across multiple production, test, and development infrastructures.',
-        'Execute server builds, configurations, and decommissions, following strict change control and security protocols to maintain a stable and compliant infrastructure.',
-        'Manage and maintain server blades and hardware assets, performing diagnostics, capacity planning, and coordination with vendors for timely issue resolution.',
-        'Administer Avamar backup and recovery systems, verifying backup success rates, restoring critical data, and contributing to business continuity and disaster recovery planning.',
-        'Support and monitor SQL databases, performing performance tuning, user access management, and backup/restore operations to ensure database integrity and efficiency.',
-        'Prepare and maintain KPI reports and bin management records, monitoring operational metrics to ensure SLAs are consistently met and performance standards upheld.'
+        'Provided technical support and maintenance for Citrix servers, Hyper-V, and VMware environments across production, test, and development systems, ensuring strong infrastructure performance, stability, and uptime.',
+        'Performed server builds, configurations, and decommissions while adhering to change control requirements and security protocols to support a stable and compliant enterprise environment.',
+        'Managed server blades and hardware assets by conducting diagnostics, assisting with capacity planning, and coordinating with vendors for timely issue resolution and maintenance.',
+        'Administered Avamar backup and recovery systems, monitored backup success rates, restored critical data, and contributed to business continuity and disaster recovery readiness.',
+        'Supported SQL databases through performance tuning, user access management, and backup/restore operations, helping maintain database integrity, reliability, and efficiency.',
+        'Prepared KPI reports and maintained bin management records to monitor operational metrics, support service performance analysis, and ensure compliance with SLAs.'
       ],
     },
     {

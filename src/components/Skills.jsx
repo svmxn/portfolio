@@ -3,10 +3,11 @@ import '../styles/Skills.css'
 
 export default function Skills() {
   const skills = [
-    { category: 'Languages', items: ['Python', 'Java', 'JavaScript', 'C', 'C++', 'C#', 'HTML/CSS', 'LISP', 'Bash', 'Visual Basic', 'Smalltalk', 'Rust', 'Elixir', 'Haskell', 'PROLOG'] },
-    { category: 'Technologies', items: ['React.js', 'Angular', 'Vue.js', 'Django', 'Express.js', 'TensorFlow', 'PyTorch', 'jQuery', 'Bootstrap', 'TailwindCSS', 'Flask', 'ASP.NET', 'Node.js', 'Supabase', 'Prisma', 'SQL', 'PostgreSQL', 'sklearn', 'pandas'] },
-    { category: 'Soft Skills', items: ['Communication', 'Problem-solving', 'Adaptability', 'Teamwork', 'Critical Thinking', 'Time Management', 'Collaboration'] },
-    { category: 'Relevant Coursework', items: ['Data Structures (LISP)', 'Algorithms (Python)', 'Data Science (Python)', 'Web Systems Development', 'Operating Systems (C)', 'Computer Security', 'Computer Networks'] },
+    { category: 'Languages', items: ['Python', 'Java', 'JavaScript', 'C', 'C++', 'C#', 'SQL', 'HTML/CSS', 'Bash', 'LISP', 'Visual Basic', 'Smalltalk', 'Rust', 'Elixir', 'Haskell', 'PROLOG'] },
+    { category: 'Frameworks & Libraries', items: ['React.js', 'Node.js', 'Express.js', 'Django', 'Flask', 'TensorFlow', 'PyTorch', 'scikit-learn', 'pandas', 'ASP.NET'] },
+    { category: 'Developer Tools & Platforms', items: ['Git', 'GitHub', 'Docker', 'Linux/Unix', 'PostgreSQL', 'MySQL', 'MongoDB', 'REST APIs', 'PowerBI'] },
+    { category: 'Cloud, DevOps & Tools', items: ['AWS (EC2, S3)', 'CI/CD (GitHub Actions)', 'AutoCAD', 'Microsoft Office (Excel, PowerPoint, Word)'] },
+    { category: 'Soft Skills', items: ['Problem Solving', 'Communication', 'Team Collaboration', 'Adaptability', 'Time Management', 'Leadership'] },
   ]
 
   const containerVariants = {
