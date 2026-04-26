@@ -1,6 +1,6 @@
 /* Experience Styles */
 .experience {
-  background: linear-gradient(135deg, #0a0e27 0%, #16213e 100%);
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--secondary-dark) 100%);
 }
 
 .experience-header {
@@ -26,7 +26,7 @@
   top: 0;
   bottom: 0;
   width: 2px;
-  background: linear-gradient(180deg, #8b5cf6, #3b82f6, #06b6d4);
+  background: linear-gradient(180deg, var(--accent-purple), var(--accent-blue), var(--accent-cyan));
   opacity: 0.3;
 }
 
@@ -50,7 +50,7 @@
 .timeline-dot {
   width: 16px;
   height: 16px;
-  background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+  background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
   border-radius: 50%;
   position: relative;
   box-shadow: 0 0 20px rgba(139, 92, 246, 0.5);

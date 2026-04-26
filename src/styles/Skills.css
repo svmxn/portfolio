@@ -1,6 +1,6 @@
 /* Skills Styles */
 .skills {
-  background: linear-gradient(135deg, #0a0e27 0%, #16213e 100%);
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--secondary-dark) 100%);
 }
 
 .skills-header {
@@ -35,7 +35,7 @@
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, #8b5cf6, #3b82f6, transparent);
+  background: linear-gradient(90deg, var(--accent-purple), var(--accent-blue), transparent);
   opacity: 0;
   transition: opacity 0.3s ease;
 }

@@ -12,8 +12,8 @@ export default function Projects() {
         'Enhanced the platform\'s functionality by incorporating features for task management, payment tracking, and student progress monitoring.'
       ],
       technologies: ['HTML/CSS', 'React.js', 'MySQL'],
-      github: 'https://github.com',
-      link: '#',
+      github: 'https://github.com/svmxn',
+      link: 'https://www.mentorsattendance.com/',
       featured: true,
     },
   ]

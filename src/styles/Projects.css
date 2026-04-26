@@ -1,6 +1,6 @@
 /* Projects Styles */
 .projects {
-  background: linear-gradient(135deg, #16213e 0%, #0a0e27 100%);
+  background: linear-gradient(135deg, var(--secondary-dark) 0%, var(--primary-dark) 100%);
 }
 
 .projects-header {
@@ -80,7 +80,7 @@
 .featured-badge {
   display: inline-block;
   padding: 4px 12px;
-  background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+  background: var(--accent-purple);
   color: white;
   font-size: 0.75rem;
   font-weight: 600;

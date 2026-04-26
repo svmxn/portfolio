@@ -118,3 +118,7 @@ temp/
 
 # Yarn Integrity file
 .yarn-integrity
+
+.agents
+
+*.md

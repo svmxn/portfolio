@@ -37,17 +37,22 @@ export default function About() {
         </motion.div>
 
         <motion.div variants={itemVariants} className="about-content">
-          <p>
-            I'm a Computer Science student at Toronto Metropolitan University (formerly Ryerson University) with a passion for building innovative solutions using cutting-edge technologies. With a strong foundation in full-stack development, data engineering, and infrastructure operations, I'm excited to tackle challenging projects and contribute to impactful initiatives.
-          </p>
+          <div className="about-image">
+            <img src="/samin.jpg" alt="Samin Siddique" />
+          </div>
+          <div className="about-text">
+            <p>
+              I'm a Computer Science student at Toronto Metropolitan University (formerly Ryerson University) with a passion for building innovative solutions using cutting-edge technologies. With a strong foundation in full-stack development, data engineering, and infrastructure operations, I'm excited to tackle challenging projects and contribute to impactful initiatives.
+            </p>
 
-          <p>
-            My experience spans from developing full-stack web applications to managing enterprise IT infrastructure, with a focus on leveraging modern technologies like React, Python, and cloud platforms. I'm actively seeking opportunities to apply my skills in real-world scenarios while continuing to expand my technical expertise.
-          </p>
+            <p>
+              My experience spans from developing full-stack web applications to managing enterprise IT infrastructure, with a focus on leveraging modern technologies like React, Python, and cloud platforms. I'm actively seeking opportunities to apply my skills in real-world scenarios while continuing to expand my technical expertise.
+            </p>
 
-          <p>
-            Beyond academics, I'm passionate about teaching and mentoring, helping others develop their programming and mathematical skills. I believe in the power of technology to solve complex problems and create meaningful impact.
-          </p>
+            <p>
+              Beyond academics, I'm passionate about teaching and mentoring, helping others develop their programming and mathematical skills. I believe in the power of technology to solve complex problems and create meaningful impact.
+            </p>
+          </div>
         </motion.div>
 
         <motion.div variants={itemVariants} className="about-highlights">
